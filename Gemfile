@@ -17,6 +17,10 @@ gem 'sass-rails',   '~> 5.0'
 gem 'turbolinks',   '~> 5'
 gem 'uglifier',     '>= 1.3.0'
 
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
+
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'capybara'

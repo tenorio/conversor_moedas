@@ -1,3 +1,14 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://coffeescript.org/
+$(document).ready ->
+  $("#currency, #quantity, #currency_destination").on "change", ->
+    callRateConverter()
+    return false
+
+  $("#swap").on 'click', ->
+    currency = $("#currency").val()
+    currency_destination = $("#currency_destination").val()
+
+    $("#currency_destination").val(currency)
+    $("#currency").val(currency_destination)
+
+    callRateConverter()
+    return false

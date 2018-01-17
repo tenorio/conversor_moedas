@@ -1,24 +1,13 @@
-# README
+## Currency converter app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a currency converter app made with Ruby on Rails.
 
-Things you may want to cover:
+**Dependencies**
 
-* Ruby version
+* Docker;
+* PostgreSQL
 
-* System dependencies
+**Installation**
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone the git repo;
+2. Build the image in your docker environment.
